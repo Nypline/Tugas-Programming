@@ -3,6 +3,7 @@
 const Hero = () => {
   return (
     <section
+      id="hero"
       className="h-screen bg-cover bg-center relative flex items-center"
       style={{ backgroundImage: "url('https://www.taylorhazell.com/wp-content/uploads/2014/12/awesome-architecture-wallpaper-4006-4227-hd-wallpapers.jpg')" }}
     >

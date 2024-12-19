@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8" id="footer">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
         <div>
           <h3 className="text-2xl font-bold mb-4">ArchiWeb</h3>

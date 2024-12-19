@@ -7,22 +7,22 @@ const Navbar = () => {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-gray-800">
+        <a href="#hero" className="text-2xl font-bold text-gray-800">
           ArchiWeb
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#hero" className="text-gray-600 hover:text-gray-800">
             Home
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#projects" className="text-gray-600 hover:text-gray-800">
             Projects
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#about" className="text-gray-600 hover:text-gray-800">
             About
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#footer" className="text-gray-600 hover:text-gray-800">
             Contact
           </a>
         </div>
@@ -57,25 +57,25 @@ const Navbar = () => {
         }`}
       >
         <a
-          href="#"
+          href="#hero"
           className="block px-6 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100"
         >
           Home
         </a>
         <a
-          href="#"
+          href="#projects"
           className="block px-6 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100"
         >
           Projects
         </a>
         <a
-          href="#"
+          href="#about"
           className="block px-6 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100"
         >
           About
         </a>
         <a
-          href="#"
+          href="#footer"
           className="block px-6 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100"
         >
           Contact
