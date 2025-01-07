@@ -1,27 +1,30 @@
-
-
 const Testimonials = () => {
   const reviews = [
     {
       name: "James Passaquindici Arcand",
-      text: "I needed a modern living room that matched my busy lifestyle, and ArchiWeb delivered beyond my expectations. The design is sleek, functional, and exactly what I envisioned. Highly recommended!.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzr9uph9Hige96UHRV93yDK8rSFMRXwvy96Q&s", // Replace with actual image URLs
+      text: "ArchiWeb menghadirkan ruang tamu modern yang cocok dengan gaya hidup saya yang sibuk. Desainnya begitu elegan, fungsional, dan persis seperti yang saya impikan. Sangat direkomendasikan!",
+      image:
+        "https://i.pinimg.com/736x/d7/ac/c7/d7acc710d8001089244718e8869aa7d4.jpg",
     },
     {
       name: "Abram Schleifer",
-      text: "My luxurious villa is a dream come true, thanks to ArchiWeb. Their attention to detail and ability to bring opulence to life are unmatched. I'm thrilled with the result!",
-      image: "https://i.pinimg.com/474x/98/51/1e/98511ee98a1930b8938e42caf0904d2d.jpg", // Replace with actual image URLs
+      text: "Villa mewah saya adalah impian yang menjadi kenyataan, berkat ArchiWeb. Perhatian mereka pada detail dan kemampuan mewujudkan kemewahan sungguh luar biasa. Saya sangat puas dengan hasilnya!",
+      image:
+        "https://i.pinimg.com/736x/ff/2f/eb/ff2feb7c4ce96fa3176e569338a0f279.jpg",
     },
     {
       name: "Clara Smith",
-      text: "As someone who values comfort and aesthetics, I couldn't be happier with my cozy bedroom. ArchWeb created a space that's perfect for relaxing and capturing content. They're incredible!",
-      image: "https://imgcdn.stablediffusionweb.com/2024/6/12/4d688bcf-f53b-42b6-a98d-3254619f3b58.jpg", // Replace with actual image URLs
+      text: "Sebagai seseorang yang mengutamakan kenyamanan dan estetika, saya sangat bahagia dengan kamar tidur saya yang nyaman. ArchiWeb menciptakan ruang yang sempurna untuk bersantai dan menghasilkan konten. Luar biasa!",
+      image:
+        "https://i.pinimg.com/1200x/15/82/9d/15829d026839a7c399b361d1c9f5f838.jpg",
     },
   ];
 
   return (
     <section className="py-16 bg-gray-50" id="testimonials">
-      <h2 className="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
+      <h2 className="text-3xl font-bold text-center mb-12">
+        What Our Clients Say
+      </h2>
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {reviews.map((review, index) => (
           <div

@@ -1,24 +1,28 @@
-
-
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Modern Living Room",
-      description: "A modern living room design with minimalist furniture.",
-      image: "https://st.hzcdn.com/simgs/pictures/living-rooms/modern-living-room-debra-ackerbloom-interiors-llc-img~c971036c0bdc4f53_14-9822-1-a92e8d5.jpg", // Replace with actual image URLs
+      title: "Ruang Tamu Minimalis",
+      description:
+        "Desain ruang tamu modern dengan furnitur minimalis yang elegan.",
+      image:
+        "https://i.pinimg.com/736x/3f/f6/12/3ff612b3accf0a3ef989e51f19f3a69f.jpg",
     },
     {
       id: 2,
-      title: "Luxury Villa",
-      description: "A luxurious villa with stunning architecture.",
-      image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/466378675.jpg?k=47439be8a91e422a1dbef4f02630d6c86f1266a815d7bd8f21b2c5ce0492bcc1&o=&hp=1", // Replace with actual image URLs
+      title: "Villa Mewah",
+      description:
+        "Villa dengan arsitektur megah dan sentuhan kemewahan di setiap sudutnya.",
+      image:
+        "https://i.pinimg.com/736x/90/dd/59/90dd59a64b7caac2d65f690558075827.jpg",
     },
     {
       id: 3,
-      title: "Cozy Bedroom",
-      description: "A cozy and elegant bedroom with warm tones.",
-      image: "https://media.architecturaldigest.com/photos/5eac5fa22105f13b72dede45/master/pass/111LexowAve_Aug18-1074.jpg", // Replace with actual image URLs
+      title: "Kamar Tidur Nyaman",
+      description:
+        "Kamar tidur yang hangat dan elegan dengan nuansa warna yang menenangkan.",
+      image:
+        "https://i.pinimg.com/736x/95/f0/a6/95f0a649e31f5e8df973ca4713306731.jpg",
     },
   ];
 
